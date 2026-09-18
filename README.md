@@ -1,4 +1,4 @@
-# CGTMSE Resubmit Desk v1.6.0
+# CGTMSE Resubmit Desk v1.6.1
 
 Windows Python bot for returned first-instalment claims on https://inter.cgtmse.in
 
@@ -10,7 +10,7 @@ Direct link: https://github.com/cgtmseccgc-ctrl/CGTMSE-Resubmit-Bot/archive/refs
 
 Unzip, then double-click `run.bat`.
 
-Do not reuse an older `v1.5.5` folder.
+Do not reuse an older folder. Delete .venv if you reuse the same folder.
 
 ## First run
 
@@ -20,13 +20,10 @@ Do not reuse an older `v1.5.5` folder.
 4. Files: credential master + claims workbook
 5. Optional fallback passwords (comma-separated), then Build queue → Start live run
 
-## Checker (v1.6.0)
+## Checker (v1.6.1)
 
-- Ticks ACCEPT on **that claim only**
-- Clicks the **Save picture** (not a Save button)
+- If maker already sent the claim, checker still looks for it
+- Opens the D/U list once, ticks ACCEPT on every Excel claim on that page, Save once
+- Clicks the Save picture (not a Save button)
 - Accepts the validation alert
 - Keeps maker-forwarded status if checker cannot save
-
-## Output
-
-`output\RESUBCL-dd-mm-yyyy-HH-MM\` with RESULT.csv, evidence, video, logs.
