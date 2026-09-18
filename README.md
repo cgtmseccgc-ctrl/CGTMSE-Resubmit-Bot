@@ -2,17 +2,15 @@
 
 Windows Python bot for returned first-instalment claims on https://inter.cgtmse.in
 
-## Download (use this, not the Grok preview)
+## Download
 
-1. Open https://github.com/cgtmseccgc-ctrl/CGTMSE-Resubmit-Bot
-2. Click the green **Code** button
-3. Click **Download ZIP**
+On GitHub: **Code → Download ZIP**
 
-Or open this link in your browser:
-https://github.com/cgtmseccgc-ctrl/CGTMSE-Resubmit-Bot/archive/refs/heads/main.zip
+Direct link: https://github.com/cgtmseccgc-ctrl/CGTMSE-Resubmit-Bot/archive/refs/heads/main.zip
 
-Unzip the folder, then double-click `run.bat`.
-Do not reuse an older v1.5.5 folder.
+Unzip, then double-click `run.bat`.
+
+Do not reuse an older `v1.5.5` folder.
 
 ## First run
 
@@ -24,7 +22,11 @@ Do not reuse an older v1.5.5 folder.
 
 ## Checker (v1.6.0)
 
-- Ticks ACCEPT on that claim only
-- Clicks the Save picture (not a Save button)
+- Ticks ACCEPT on **that claim only**
+- Clicks the **Save picture** (not a Save button)
 - Accepts the validation alert
 - Keeps maker-forwarded status if checker cannot save
+
+## Output
+
+`output\RESUBCL-dd-mm-yyyy-HH-MM\` with RESULT.csv, evidence, video, logs.

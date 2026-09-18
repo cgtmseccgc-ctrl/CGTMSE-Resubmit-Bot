@@ -41,6 +41,7 @@ echo Installing Playwright Chromium for live portal mode...
 python -m playwright install chromium
 if errorlevel 1 (
   echo Playwright browser install failed. Dashboard rehearsal will still work.
+  echo Live portal mode needs: python -m playwright install chromium
 )
 
 echo.
