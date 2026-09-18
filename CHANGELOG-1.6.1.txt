@@ -1,0 +1,4 @@
+v1.6.1
+- Maker 'already sent' still goes to checker
+- Checker opens D/U list once, ticks every Excel claim on that page, Save once
+- URN / closed / no legal papers still skip checker
